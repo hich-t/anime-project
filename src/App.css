@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
+body {
+
+  background-image: url('/public/bg_home1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-attachment: fixed;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.App{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+
 }
 
-.App-link {
-  color: #61dafb;
+.welcomeframe {
+
+font-family: 'Noto Sans', sans-serif;
+font-weight: 800;
+position: absolute;
+top: 34%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+background-color: rgb(39, 39, 39);
+width: 300px;
+height: 300px;
+box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, 
+          rgba(255, 255, 255, 0.12) 0px -12px 30px,
+           rgba(255, 255, 255, 0.12) 0px 4px 6px, 
+           rgba(255, 255, 255, 0.17) 0px 12px 13px,
+            #ffffff17 0px -3px 5px;
+border-radius: 15px;
+padding:15px 0;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcomeinput {
+
+font-family: 'Noto Sans', sans-serif;
+color: white;
+text-align: center;
+margin: 10px;
+width: 140px;
+height: 30px;
+background-color: rgb(51, 51, 51 );
+
+}
+
+.welcomeframecharacters{
+
+color: white;
+
+
+}
+
+.welcomebuttonguest{
+
+font-family: 'Noto Sans JP', sans-serif;
+font-weight: 800;
+background-color: black;
+border: 1px sold black;
+padding: 10px 20px;
+color: white;
+margin-top: 1px;
+box-shadow: rgba(255, 255, 255, 0.25) 0px 10px 20px, 
+          rgba(255, 255, 255, 0.12) 0px -3px 13px,
+           rgba(255, 255, 255, 0.12) 0px 4px 6px, 
+           rgba(255, 255, 255, 0.17) 0px 3px 5px,
+            #ffffff17 0px -3px 4px;
+border-radius: 4px;
+}
+
+.welcomelogoanime{
+  margin-top: 20px;
+  width:150px;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
 }
